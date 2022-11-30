@@ -8,29 +8,43 @@ h1, h2 {
 }
 
 h1 {
+    /* Add font to the code ; Phosphate inline and solid */
+}
 
-    font-family:    /* Add font to the code ; Phosphate inline and solid*/
+.dark_text {
+    color: #008EA1;
+}
+
+.logo_mobile {
+    text-align: center;
 }
 
 .welcome {
     background-color: #008EA1;
+    text-align: center;
 }
 
 .button {
     background-color: #3F12AB;
     padding: 10px 50px;
     border-radius: 8px;
-    display: block;
+    text-align: center;
     margin: 10px;
 }
 
-nav {
-
+nav li {
+    display: inline-block;
+    margin: 7px;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+.news {
+    text-align: center;
+    background-color: white;
 }
 
 .hours {
@@ -41,6 +55,16 @@ a {
 .contact {
     color: white;
     text-align: center;
+}
+
+.location {
+    color: white;
+    text-align: center;
+}
+
+/* Adjust image size on map image*/
+.map {
+ 
 }
 
 footer {
