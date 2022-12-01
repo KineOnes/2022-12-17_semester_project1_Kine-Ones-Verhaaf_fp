@@ -27,12 +27,19 @@ h1 {
     color: #008EA1;
 }
 
-
-
-.welcome {
-    background-color: #008EA1;
+.container {
+    /* background-color: #008EA1; */
     text-align: center;
+    display: flex; 
+    padding: 0px;
+}
+
+.item {
+    text-align: center;
+    flex: 1px;
     padding: 10px;
+    background-color: #008EA1;
+    ;
 }
 
 .button {
@@ -67,6 +74,8 @@ a {
     background-color: white;
     text-align: left;
     padding: 10px;
+      flex-direction: column;
+      grid-template-columns: 1fr;
 }
 
 .hours {
@@ -115,13 +124,18 @@ footer {
   }
   }
 
-
-
 @media(min-width: 500px){
     .logo .logo_desktop {
         display: block;
   }
     .logo .logo_mobile {
         display: none;
+    }
+  }
+
+  @media(max-width: 600px){
+    .container{
+      flex-direction: column;
+      grid-template-columns: 1fr;
     }
   }
