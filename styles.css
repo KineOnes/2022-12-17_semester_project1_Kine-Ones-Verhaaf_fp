@@ -3,6 +3,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
+.logo .logo_desktop {
+    display: none;
+}
+
+.logo_mobile {
+    text-align: left;
+}
+
 h1, h2 {
     color: white;
 }
@@ -15,13 +27,12 @@ h1 {
     color: #008EA1;
 }
 
-.logo_mobile {
-    text-align: center;
-}
+
 
 .welcome {
     background-color: #008EA1;
     text-align: center;
+    padding: 10px;
 }
 
 .button {
@@ -34,7 +45,16 @@ h1 {
 
 nav li {
     display: inline-block;
-    margin: 7px;
+    margin: 5px;
+}
+
+nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px;
 }
 
 a {
@@ -45,6 +65,8 @@ a {
 .news {
     text-align: center;
     background-color: white;
+    text-align: left;
+    padding: 10px;
 }
 
 .hours {
@@ -70,3 +92,36 @@ a {
 footer {
     background-color: #008EA1;
 }
+
+@media(min-width: 500px){
+    .logo_mobile {
+        text-align: center;
+    }
+  }
+
+@media(min-width: 500px){
+  nav {
+    text-align: right;
+}
+}
+
+@media(min-width: 500px){
+    nav li {
+        display: inline-block;
+        margin-left: 10px;
+        background-color: #008EA1;
+        padding: 10px 50px;
+        border-radius: 8px;
+  }
+  }
+
+
+
+@media(min-width: 500px){
+    .logo .logo_desktop {
+        display: block;
+  }
+    .logo .logo_mobile {
+        display: none;
+    }
+  }
