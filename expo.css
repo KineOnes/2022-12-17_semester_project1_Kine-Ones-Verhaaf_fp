@@ -5,16 +5,16 @@
     padding: 10px;
 }
 
-img {
-    max-height: 261px;
-    max-width: 670px;
-}
-
 .expo {
     text-align: center;
     flex: 1px;
     padding: 20px;
     background-color: #ffffff;
+}
+
+img {
+    max-height: 261px;
+    max-width: 670px;
 }
 
 h1 {

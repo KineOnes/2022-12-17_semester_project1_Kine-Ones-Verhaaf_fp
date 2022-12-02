@@ -15,6 +15,10 @@ img {
     text-align: left;
 }
 
+h1 {
+    text-align: center;
+}
+
 h1, h2 {
     color: white;
 }
@@ -65,13 +69,21 @@ a {
     text-decoration: none;
 }
 
+.events {
+    /* background-color: #008EA1; */
+    text-align: center;
+    display: flex; 
+    padding: 0px;
+}
+
 .news {
     text-align: center;
     background-color: white;
     text-align: left;
     padding: 10px;
-      flex-direction: column;
-      grid-template-columns: 1fr;
+    flex: 10px;
+    flex-direction: column;
+    grid-template-columns: 1fr;
 }
 
 .hours {
@@ -125,7 +137,14 @@ footer {
   }
 
   @media(max-width: 600px){
-    .container{
+    .container {
+      flex-direction: column;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media(max-width: 600px){
+    .events {
       flex-direction: column;
       grid-template-columns: 1fr;
     }
