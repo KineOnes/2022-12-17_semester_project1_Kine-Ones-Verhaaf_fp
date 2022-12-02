@@ -1,0 +1,29 @@
+.expos {
+    /* background-color: #008EA1; */
+    text-align: center;
+    display: flex; 
+    padding: 10px;
+}
+
+.expo {
+    text-align: center;
+    flex: 1px;
+    padding: 10px;
+    background-color: #ffffff;
+    ;
+}
+
+h1 {
+    color: #008EA1;
+}
+
+h2 {
+    color: black;
+}
+
+@media(max-width: 600px){
+    .expos{
+      flex-direction: column;
+      grid-template-columns: 1fr;
+    }
+  }

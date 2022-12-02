@@ -19,10 +19,6 @@ h1, h2 {
     color: white;
 }
 
-h1 {
-    /* Add font to the code ; Phosphate inline and solid */
-}
-
 .dark_text {
     color: #008EA1;
 }
@@ -91,11 +87,6 @@ a {
 .location {
     color: white;
     text-align: center;
-}
-
-/* Adjust image size on map image*/
-.map {
- 
 }
 
 footer {
