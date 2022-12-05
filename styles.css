@@ -27,11 +27,21 @@ h1, h2 {
     color: #008EA1;
 }
 
+.black_text {
+    color: black;
+    font-size: medium;
+}
+
 .container {
     /* background-color: #008EA1; */
     text-align: center;
     display: flex; 
     padding: 0px;
+}
+
+img {
+    max-height: 461px;
+    max-width: 670px;
 }
 
 .item {
@@ -105,6 +115,20 @@ footer {
     background-color: #008EA1;
 }
 
+.expos {
+    /* background-color: #008EA1; */
+    text-align: center;
+    display: flex; 
+    padding: 10px;
+}
+
+.expo {
+    text-align: center;
+    flex: 1px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
 @media(min-width: 500px){
     .logo_mobile {
         text-align: center;
@@ -145,6 +169,13 @@ footer {
 
   @media(max-width: 600px){
     .events {
+      flex-direction: column;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media(max-width: 600px){
+    .expos{
       flex-direction: column;
       grid-template-columns: 1fr;
     }
