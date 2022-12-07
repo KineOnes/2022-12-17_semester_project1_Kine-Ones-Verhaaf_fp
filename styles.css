@@ -93,6 +93,7 @@ a {
     flex-direction: column;
     grid-template-columns: 1fr;
     background-color: white;
+    padding-top: 20px;
 }
 
 .hours {
