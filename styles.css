@@ -13,6 +13,7 @@ img {
 
 .logo_mobile {
     text-align: left;
+    max-height: 357px;
 }
 
 h1 {
@@ -72,11 +73,16 @@ nav {
 
 ul {
     padding: 0px;
+    display: inline-block;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+.title_page {
+    background-color: #008EA1;
 }
 
 .events {
