@@ -108,6 +108,7 @@ a {
     grid-template-columns: 1fr;
     background-color: white;
     padding-top: 20px;
+    padding: 10px;
 }
 
 .footer_element {
