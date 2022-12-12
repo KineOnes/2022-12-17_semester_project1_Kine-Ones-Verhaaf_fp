@@ -29,19 +29,21 @@
     </header>
 
     <main>
-        <form action="submit.php" method="POST">
-            <input type="text" name="firstname" />
-            <textarea id="message" name="message" rows="5" cols="30"></textarea>
-            <input type="submit" value="Send" />
-          </form>
+        <div class="flex_gap">
+            <form class="form_box">
+                <div class="message">
+                    <h2>SEND US A MESSAGE</h2>
+                    <label for="name">Your name</label>
+                    <input id="name" type="text" name="name">
+                    <textarea id="message-box" name="message"></textarea>
+                <div class="submit-form">
+                    <input class="button" type="submit" value="Send">
+                </div>    
+                </div>
 
-         <form>
-            <fieldset>
-                <legend>Send us a message:</legend>
-                <label for="name">Your name</label>
-                <input type="text" name="name" id="name" class="form__input">
-            </fieldset>
-         </form> 
+            </form>
+        </div>
+
           
     </main>
 

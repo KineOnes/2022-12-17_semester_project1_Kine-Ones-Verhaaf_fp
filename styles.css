@@ -50,6 +50,22 @@ img {
     ;
 }
 
+.form {
+    flex: 1;
+}
+
+.form_box {
+    display: grid;
+    text-align: center;
+    background: #008EA1;
+    margin-bottom: 30px;
+}
+
+.flex-gap { 
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
 .button {
     background-color: #3F12AB;
     padding: 10px 50px;
@@ -83,13 +99,11 @@ a {
 }
 
 .container {
-    /* background-color: #008EA1; */
     text-align: center;
     display: flex; 
     padding: 0px;
 }
 .events {
-    /* background-color: #008EA1; */
     text-align: center;
     display: flex;
     gap: 10px;
