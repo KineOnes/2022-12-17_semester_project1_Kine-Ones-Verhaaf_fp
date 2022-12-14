@@ -7,6 +7,18 @@ img {
     max-width: 100%;
 }
 
+@media(min-width: 500px){
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo_desktop {
+    max-height: 200px;
+    padding: 20px;
+    padding-left: 20px;
+}
+}
+
 .logo .logo_desktop {
     display: none;
 }
@@ -96,12 +108,13 @@ a {
 
 .title_page {
     background-color: #008EA1;
+    padding: 5px;
 }
 
 .container {
     text-align: center;
     display: flex; 
-    padding: 0px;
+    padding-bottom: 10px;
 }
 .events {
     text-align: center;
