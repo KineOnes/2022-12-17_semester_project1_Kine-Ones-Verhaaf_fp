@@ -7,17 +7,7 @@ img {
     max-width: 100%;
 }
 
-@media(min-width: 500px){
-.logo {
-    display: flex;
-    align-items: center;
-}
-.logo_desktop {
-    max-height: 200px;
-    padding: 20px;
-    padding-left: 20px;
-}
-}
+
 
 .logo .logo_desktop {
     display: none;
@@ -190,6 +180,15 @@ a {
         display: none;
 
     }
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    .logo_desktop {
+        max-height: 200px;
+        padding: 20px;
+        padding-left: 20px;
+    }
     }
 
 @media(max-width: 600px){
@@ -214,7 +213,6 @@ a {
       grid-template-columns: 1fr;
     }
     }
-
 
   .visit {
     text-align: center;
