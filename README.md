@@ -11,6 +11,8 @@ Github Repo: https://github.com/KineOnes/2022-12-17_semester_project1_Kine-Ones-
 
 Netlify: https://app.netlify.com/sites/radiant-seahorse-eaf599/overview
 
+Trello board: https://trello.com/invite/b/dFjYrcrn/ATTIce3a88f261a901645491721f62f5fcf87FFBEE15/project1-editable-for-me
+
 Requirements:
 
 1. The site must have a design that appeals to the target audience.
