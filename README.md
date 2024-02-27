@@ -49,17 +49,7 @@ git clone git@github.com:KineOnes/2022-12-17_semester_project1_Kine-Ones-Verhaaf
 2. View website:
 
 ```
-(https://radiant-seahorse-eaf599.netlify.app/)
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
+https://radiant-seahorse-eaf599.netlify.app/
 ```
 
 ## Contributing
@@ -72,7 +62,6 @@ This is where you can leave your social links for people to contact you, such as
 
 [My Twitter page](www.twitter.com)
 
-[My LinkedIn page](www.linkedin.com)
 
 ## License
 
