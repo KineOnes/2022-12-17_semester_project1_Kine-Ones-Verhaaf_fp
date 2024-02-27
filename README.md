@@ -46,10 +46,10 @@ This is where you list how to get the project started. It typically just include
 git clone git@github.com:KineOnes/2022-12-17_semester_project1_Kine-Ones-Verhaaf_fp.git
 ```
 
-2. Install the dependencies:
+2. View website:
 
 ```
-npm install
+(https://radiant-seahorse-eaf599.netlify.app/)
 ```
 
 ### Running
