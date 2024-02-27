@@ -5,18 +5,25 @@
 In this project I am developing a website for the new science museum opening in my town. It´s called Community Science Museum and the target audience is primary- and middle school pupils, and familys with small children. The website should be informative and and engaging, encouraging viewers to visit. The website should be responsive and easy to navigate over various devices.
 
 ## Description (Taken from the brief handed out for the assignment)
+
 Based on the first-semester curriculum, the semester project should reflect the student’s creative and technical knowledge and skills. This includes design principles, project management, communication technology, and development with HTML/CSS.
-
 Target Audience & Design: The target audience should be carefully considered, and the proposed design should reflect this. A website prototype should be made using your chosen software (Adobe XD, Figma etc.)
-
 Final Product: The site should be tested on a variety of devices before final delivery. The student is responsible for setting up their web host or using Netlify to deploy the site.
 
 - Trello
 - Figma
 - Hotjar
 - Netlify
-  
+
 ## Requirements
+
+- Trello
+- Figma
+- Hotjar
+- Netlify
+
+## Requirements
+
 1. The site must have a design that appeals to the target audience.
 2. The site must have at least 4-6 pages.
 3. Compositional principles, typography, and colour schemes must be considered.
@@ -29,8 +36,8 @@ Final Product: The site should be tested on a variety of devices before final de
 10. The GitHub repo for the project should be set to private. You do not need to submit this with your project.
 
 ## Built With
-- Trello (planning)
-- Figma (prototype)
+
+- [Figma](https://www.figma.com)
 - HTML
 - CSS
 
@@ -44,29 +51,21 @@ Final Product: The site should be tested on a variety of devices before final de
 git clone git@github.com:KineOnes/2022-12-17_semester_project1_Kine-Ones-Verhaaf_fp.git
 ```
 
-2. View website:
+2. View on Netlify
+   [Netlify](https://radiant-seahorse-eaf599.netlify.app)
 
-```
-https://radiant-seahorse-eaf599.netlify.app/
-```
+### Running
 
-## Running
-Clone the repo, open in Vscode. Right click on index.html and run in Live server.
-
+Clone the repo, open in Vscode. Right click on the index.html and open in Live Server.
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+Open a pull request and review the code.
 
 ## Contact
 
-[My Behance page](www.behance.net/kineonesv)
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
+[My Behance Profile](https://www.behance.net/kineonesv)
 
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+[My Github Profile](https://github.com/KineOnes)
