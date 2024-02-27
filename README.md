@@ -1,6 +1,6 @@
 # Semester project1 / Community Science Museum
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](./images/Museum_screenshot.png)
 
 In this project I am developing a website for the new science museum opening in my town. It´s called Community Science Museum and the target audience is primary- and middle school pupils, and familys with small children. The website should be informative and and engaging, encouraging viewers to visit. The website should be responsive and easy to navigate over various devices.
 
@@ -9,13 +9,6 @@ In this project I am developing a website for the new science museum opening in 
 Based on the first-semester curriculum, the semester project should reflect the student’s creative and technical knowledge and skills. This includes design principles, project management, communication technology, and development with HTML/CSS.
 Target Audience & Design: The target audience should be carefully considered, and the proposed design should reflect this. A website prototype should be made using your chosen software (Adobe XD, Figma etc.)
 Final Product: The site should be tested on a variety of devices before final delivery. The student is responsible for setting up their web host or using Netlify to deploy the site.
-
-- Trello
-- Figma
-- Hotjar
-- Netlify
-
-## Requirements
 
 - Trello
 - Figma
@@ -63,8 +56,6 @@ Clone the repo, open in Vscode. Right click on the index.html and open in Live S
 Open a pull request and review the code.
 
 ## Contact
-
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
 [My Behance Profile](https://www.behance.net/kineonesv)
 
